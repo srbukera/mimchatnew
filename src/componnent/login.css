@@ -1,0 +1,58 @@
+
+.bodys {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+}
+.boxlogin {
+    
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Fixed width for the form */
+}
+
+.boxlogin div {
+    margin-bottom: 20px; /* Spacing between inputs */
+}
+
+.io {
+    width: 95%; /* Full width inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-left: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    background-color: #007BFF; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 4px;
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #777777; /* Darker blue on hover */
+}
+.title{
+
+    text-align: center;
+}
