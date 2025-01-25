@@ -35,7 +35,7 @@ if (!users.length>0) {
         users.map((user)=>(
           <div key={user?._id} className='div1'>
             <div>
-              <img src={`${import.meta.env.VITE_URL}/${user.image}`} alt="" className='imageall' />
+              <img src={user?.image} alt="" className='imageall' />
             </div>
             <div className='div2'>
               <span>{user?.username}</span>
